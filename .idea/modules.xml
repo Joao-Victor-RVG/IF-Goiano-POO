@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Exercises/Exercises.iml" filepath="$PROJECT_DIR$/Exercises/Exercises.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/IF-Goiano-POO.iml" filepath="$PROJECT_DIR$/.idea/IF-Goiano-POO.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Exercises/Lista 001/Lista 001.iml" filepath="$PROJECT_DIR$/Exercises/Lista 001/Lista 001.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Exercises/Lista 001/ex 001/ex 001.iml" filepath="$PROJECT_DIR$/Exercises/Lista 001/ex 001/ex 001.iml" />
+    </modules>
+  </component>
+</project>
