@@ -1,7 +1,7 @@
 public class Main {
     public static void main(String[] args) {
-        ContaCorrente conta1 = new ContaCorrente(12345, "João Victor", 8800.0);
-        ContaCorrente conta2 = new ContaCorrente(67890, "Marcel Melo", 9500.0);
+        contaCorrente conta1 = new contaCorrente(12345, "João Victor", 8800.0);
+        contaCorrente conta2 = new contaCorrente(67890, "Marcel Melo", 9500.0);
 
         conta1.depositar(500.0);
         conta1.sacar(200.0);

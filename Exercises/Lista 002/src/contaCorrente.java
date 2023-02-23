@@ -1,14 +1,13 @@
-import java.lang.reflect.Array;
 import java.util.ArrayList;
 
-public class ContaCorrente {
+public class contaCorrente {
     private int numeroConta;
     private String nomeTitular;
     private double saldo;
 
     public ArrayList<String> Comprovante = new ArrayList<>();
 
-    public ContaCorrente(int numeroConta, String nomeTitular, double saldo) {
+    public contaCorrente(int numeroConta, String nomeTitular, double saldo) {
         this.numeroConta = numeroConta;
         this.nomeTitular = nomeTitular;
         this.saldo = saldo;
@@ -42,7 +41,7 @@ public class ContaCorrente {
         saldo += valor;
     }
 
-    public void transferir(double valor, ContaCorrente contaDestino) {
+    public void transferir(double valor, contaCorrente contaDestino) {
         if (saldo >= valor) {
             Comprovante.add("Você transferiu " + valor);
             saldo -= valor;
