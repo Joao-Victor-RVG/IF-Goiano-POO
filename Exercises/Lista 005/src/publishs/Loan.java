@@ -10,7 +10,6 @@ public class Loan {
     private Date returnDate;
     private int renewalsQuantity;
     private double fineValue;
-    private int maxRenewals = 3;
 
     public Loan(int id, String user, String publication, Date loanDate, double fineValue) {
         this.id = id;
@@ -80,9 +79,10 @@ public class Loan {
     }
 
     public void renewLoan() {
+        int maxRenewals = 3;
         if (renewalsQuantity < maxRenewals) {
             renewalsQuantity++;
-            returnDate = new Date(returnDate.getTime() + 7 * 24 * 60 * 60 * 1000); // updates return date to 7 days after the last renewal
+            returnDate = new Date(returnDate.getTime() + 7 * 24 * 60 * 60 * 1000);
             System.out.println("Loan renewed successfully!");
         } else {
             System.out.println("Renewal limit reached!");
