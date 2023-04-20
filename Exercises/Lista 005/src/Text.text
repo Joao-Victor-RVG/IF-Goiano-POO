@@ -1,0 +1,9 @@
+AUTOR = NOME > Titulação
+
+Artigos = Titulo > data de publicacao > autores > publi referencia > resumo
+
+Livros = titulo > data de publi > publi referencia > nome dos autores > nome da ediçao > npme da Editora > ISBN dela.
+
+Teses = titulo > data de publi > outras publi de ref > autor da tese > n de pagina > resumo > data da defesa > inst onde a tese foi definida
+
+publicacao = abstract
